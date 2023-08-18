@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <img class="dek" src="/port/img/เดก.png">
+        <div>นายชนะภัย วีระ 6504101316 sec 1</div>
+    </header>
+
+    <h2 id="ArtMatir" >แสดงแผนภูมิ ความเก่งกาจด้านศิลปะการต่อสู้</h2>
+        <div class="ArtMatir_container" id="ArtMatir_chart" style="display: none;">
+            <div class="bar" style="height: 100px;">
+                100 คะแนน
+                <div class="bar-label">คาราเต้</div>
+            </div>
+            <div class="bar" style="height: 150px;">
+                150 คะแนน
+                <div class="bar-label">ยิวยิตสู</div>
+            </div>
+            <div class="bar" style="height: 80px;">
+                80 คะแนน
+                <div class="bar-label">ยูโด</div>
+            </div>
+            <div class="bar" style="height: 200px;">
+                200 คะแนน
+                <div class="bar-label">มวยไทย</div>
+            </div>
+            <div class="bar" style="height: 120px;">
+                120 คะแนน
+                <div class="bar-label">เทควันโด</div>
+            </div>
+        </div>
+            <p id="ArtMatirLabel" style="display: none;">แผนภูมิแท่งเก่งกาจด้านศิลปะการต่อสู้</p>
+
+    <h2 id="oneday">แผนภูมิวงกลมแสดงกิจวัตร 1 วัน</h2>
+        <div class="oneday_chart" id="oneday_chart" style="display: none;"></div>
+           <p id="onedayLabel" style="display: none;">แผนภูมิวงกลมแสดงกิจวัตร 1 วัน</p>
+    
+    <h2 id="wakeup">กราฟแสดงเวลาตื่นนอนใน 1 สัปดาห์</h2>
+        <canvas id="wakeup_chart"></canvas>
+
+    <script src="node.js"></script>
+</body>
+</html>
