@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Port</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <body>
     <header>
-        <img class="dek" src="/port/img/เดก.png">
+        <img class="dek" src="/img/เดก.png">
         <div>นายชนะภัย วีระ 6504101316 sec 1</div>
     </header>
 
@@ -39,12 +38,14 @@
             <p id="ArtMatirLabel" style="display: none;">แผนภูมิแท่งเก่งกาจด้านศิลปะการต่อสู้</p>
 
     <h2 id="oneday">แผนภูมิวงกลมแสดงกิจวัตร 1 วัน</h2>
-        <div class="oneday_chart" id="oneday_chart" style="display: none;"></div>
+        <div class="oneday_container" id="oneday_chart" style="display: none;"></div>
            <p id="onedayLabel" style="display: none;">แผนภูมิวงกลมแสดงกิจวัตร 1 วัน</p>
     
-    <h2 id="wakeup">กราฟแสดงเวลาตื่นนอนใน 1 สัปดาห์</h2>
-        <canvas id="wakeup_chart"></canvas>
-
+    <h2 id="smart">กราฟแสดงความหล่อของผมตลอด 2016-2022</h2>
+    <canvas class="smart_container" id="smart_chart" width="700" height="400" style="border:3px solid #110000; display: none;"></canvas>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="node.js"></script>
+    
 </body>
 </html>
